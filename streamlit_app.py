@@ -13,7 +13,7 @@ with st.expander('Data'):
 
 with st.expander('Data Visualization'):
   avg_roi_by_campaign_type = df.groupby(['Campaign_Type'])['ROI'].mean()
-  st.bar_chart(avg_roi_by_campaign_type,x='Campaign Type',y='Return of Investment')
+  st.bar_chart(data=avg_roi_by_campaign_type,x='Campaign Type',y='Return of Investment')
   
 
 
