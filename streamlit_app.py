@@ -1,5 +1,5 @@
 import streamlit as st
 
-st.title('🎈 App Name')
+st.title('💹 marketing Campaign Analysis')
 
-st.write('Hello world!')
+st.write('This is calculates impact of Marketing Campaign Analysis on sales and customer behaviour.')
